@@ -8,20 +8,20 @@
   },
   "author": "David Basil",
   "license": "ISC",
-	"dependencies": {
-		"bcryptjs": "*",
-		"body-parser": "*",
-		"connect-flash": "*",
-		"cookie-parser": "^1.4.1",
-		"express": "*",
-		"ejs": "*",
-		"express-messages": "*",
-		"express-session": "*",
-		"express-validator": "*",
-		"mongodb": "*",
-		"mongoose": "*",
-		"passport": "*",
-		"passport-http": "*",
-		"passport-local": "*"
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.5.7",
+    "express": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   }
 }

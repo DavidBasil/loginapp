@@ -8,19 +8,40 @@
 	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-		
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="/">Dashboard</a></li>
-            <li role="presentation"><a href="/users/login">Login</a></li>
-            <li role="presentation"><a href="/users/register">Register</a></li>
-            <li role="presentation"><a href="/users/logout">Logout</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Login App</h3>
-      </div>
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active"><a href="/">Dashboard</a></li>
+					<li role="presentation"><a href="/users/login">Login</a></li>
+					<li role="presentation"><a href="/users/register">Register</a></li>
+					<li role="presentation"><a href="/users/logout">Logout</a></li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Login App</h3>
+		</div><!-- /header-clearfix -->
+		<!-- messages -->
+		<div class="row">
+			<div class="col-lg-12">
+				<% if (success_msg.length > 0) { %>
+					<div class="alert alert-success">
+						<%= success_msg %>	
+					</div>
+					<% } %>
+				<% if (error_msg.length > 0) { %>
+					<div class="alert alert-success">
+						<%= error_msg %>	
+					</div>
+					<% } %>
+					<% if (error.length > 0) { %>
+					<div class="alert alert-success">
+						<%= error %>	
+					</div>
+					<% } %>
+					
+			</div><!-- col -->
+
+		</div> <!-- /container -->
+
 	<div class="row">
 <div class="col-lg-6">
-		
